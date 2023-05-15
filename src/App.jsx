@@ -41,6 +41,9 @@ export default function Gallery() {
               src={sculpture.url}
               alt={sculpture.alt}
           />
+          <p>
+              {sculpture.description}
+          </p>
       </>
     );
 }
